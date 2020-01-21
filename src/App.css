@@ -1,5 +1,31 @@
-img {
-  width: 100%;
+.App {
   height: 100vh;
-  object-fit: cover;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+}
+
+.title {
+  color: white;
+  font-family: 'Avenir';
+  font-size: 24px;
+  margin: 1%;
+
+}
+
+.footer {
+  color: white;
+  font-family: 'Avenir';
+  font-size: 18px;
+  margin: 1%;
+}
+
+.footer p {
+  margin: 0;
+}
+
+a {
+  color: white;
 }

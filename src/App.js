@@ -3,7 +3,7 @@ import axios from "axios";
 import "./App.css";
 
 export default function App() {
-  const apiKey = "ac52df63d21b30457177b47056671a7f567ad59f2917eca8119d9b38f9b04387";
+  const apiKey = "33678ea5d2162d78ed95b142d75c2bb6f0d98ddbe7ed96a949da41989f4269d6";
   const [data, setData] = useState([]);
   useEffect(() => {
     axios
@@ -14,8 +14,12 @@ export default function App() {
       });
   }, []);
   return (
-    <div className="App">
-      <img src={data} alt="Unsplash" />
+    <div className="App" style={{backgroundImage: `url(${data})`}}>
+      <div className='footer'>
+        <p className='title'>Tab Splash</p>
+        <p>Built by Hiter Harris</p>
+        <p><a href="https://unsplash.com/">Unsplash</a> API</p>
+      </div>
     </div>
   );
 }
