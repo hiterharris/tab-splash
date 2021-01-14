@@ -1,23 +1,16 @@
-.App {
-  height: 100vh;
-  background-size: 100vw;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end; 
+.footer {
+  color: black;
+  font-family: 'Avenir';
+  font-size: 18px;
+  margin: 1%;
+  position: fixed;
+  bottom: 0;
 }
 
 .title {
-  color: white;
+  color: black;
   font-family: 'Avenir';
   font-size: 24px;
-  margin: 1%;
-}
-
-.footer {
-  color: white;
-  font-family: 'Avenir';
-  font-size: 18px;
   margin: 1%;
 }
 
@@ -26,5 +19,17 @@
 }
 
 a {
-  color: white;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+  display: flex;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
 }
